@@ -1,9 +1,8 @@
 export interface TagsModel {
-    id?: number;
-    name?: string;
-    description?: string;
-    color?: string;
-    type?: number;
-    status?: number;
-    is_frozen?: boolean;
+  id?: number;
+  name?: string;
+  description?: string;
+  color?: string;
+  type?: number;
+  status?: number;
 }
