@@ -1,4 +1,4 @@
-import type { TagsModel } from './../types/tags';
+import type { TagsModel } from '../types/TagsModel';
 import axios from "axios";
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";

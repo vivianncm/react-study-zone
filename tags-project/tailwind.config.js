@@ -2,10 +2,14 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",  // pega tudo dentro do src
+    "./src/**/*.{js,ts,jsx,tsx}", // pega tudo dentro do src
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
+    },
   },
   plugins: [],
-}
+};
